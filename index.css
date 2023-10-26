@@ -1,0 +1,65 @@
+/* Reset some default styles */
+ul, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the container and freelancers list */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  #freelancers-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  /* Style the freelancer items */
+  li {
+    border: 1px solid #333;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the colors */
+  .red {
+    background-color: red;
+    color: white;
+  }
+  
+  .green {
+    background-color: green;
+    color: white;
+  }
+  
+  .blue {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Style the sizes */
+  .small {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .medium {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .large {
+    width: 200px;
+    height: 200px;
+  }
+  
